@@ -1,4 +1,3 @@
-const { default: $ } = require('webdriverio/build/commands/browser/$');
 const Page = require('./page');
 
 /**
@@ -16,10 +15,10 @@ class LoginPage extends Page {
      * a method to encapsule automation code to interact with the page
      * e.g. to login using username and password
      */
-    async login (username, password) {
-        await this.inputUsername.setValue(username);
-        await this.inputPassword.setValue(password);
-        await this.btnSubmit.click();
+    login (username, password) {
+        this.inputUsername.setValue(username);
+        this.inputPassword.setValue(password);
+        this.btnSubmit.click(); 
     }
 
     /**
