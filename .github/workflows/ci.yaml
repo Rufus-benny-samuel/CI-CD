@@ -15,6 +15,9 @@ jobs:
           with:
             args: npm run test:local
         - uses: actions/upload-artifact@v1
+        - run: npm install
+        - run: npm run build --if-present
+        - run: npx wdio run ./wdio.conf.js
           if: failure()
           with:
             name: logs
