@@ -55,6 +55,7 @@ exports.config = {
         'maxInstances': 1,
         'browserName': 'chrome',
         'goog:chromeOptions': {
+            args: ['--headless', '--disable-gpu'],
           prefs: {
             'profile.managed_default_content_settings.popups': 1,
             'profile.managed_default_content_settings.notifications': 1,
