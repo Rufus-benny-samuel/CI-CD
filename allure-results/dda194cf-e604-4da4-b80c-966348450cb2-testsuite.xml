@@ -1,0 +1,40 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1629278045768' stop='1629278048046'>
+    <name>Google search</name>
+    <title>Google search</title>
+    <test-cases>
+        <test-case start='1629278045768' status='broken' stop='1629278048043'>
+            <name>Search for webdriverio</name>
+            <title>Search for webdriverio</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-92.0.4515.159'/>
+            </parameters>
+            <steps>
+                <step start='1629278045782' status='passed' stop='1629278048039'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='53eb86b9-6ea8-4e9f-8ba5-39e46763d0f4-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'isDevTools' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'isDevTools' of undefined
+                    at findElement (/Users/rufus/Documents/personal/github actions/node_modules/webdriverio/build/utils/index.js:217:15)
+                    at $ (/Users/rufus/Documents/personal/github actions/node_modules/webdriverio/build/commands/browser/$.js:83:43)
+                    at Context.&lt;anonymous> (/Users/rufus/Documents/personal/github actions/test/specs/google.spec.js:8:20)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at async Context.executeAsync (/Users/rufus/Documents/personal/github actions/node_modules/@wdio/utils/build/shim.js:101:16)
+                    at async Context.exports.testFrameworkFnWrapper (/Users/rufus/Documents/personal/github actions/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:25:18)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
