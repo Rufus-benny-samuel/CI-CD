@@ -1,0 +1,31 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "should login with valid credentials",
+    "uid" : "7995005f09712859",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629912750438,
+      "stop" : 1629912754478,
+      "duration" : 4040
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome Headless-92.0.4515.159" ]
+  }, {
+    "name" : "check yahoo test",
+    "uid" : "87c12fa45c7e7ab3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1629912756238,
+      "stop" : 1629912756238,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}
