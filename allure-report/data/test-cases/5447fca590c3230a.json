@@ -1,12 +1,12 @@
 {
-  "uid" : "7fb59085b9452e9b",
+  "uid" : "5447fca590c3230a",
   "name" : "should login with valid credentials",
   "fullName" : "My Login application.should login with valid credentials",
   "historyId" : "4fd45334708a63fab93269cc8d19d7a1",
   "time" : {
-    "start" : 1629910600095,
-    "stop" : 1629910603518,
-    "duration" : 3423
+    "start" : 1629912284834,
+    "stop" : 1629912288218,
+    "duration" : 3384
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -19,16 +19,16 @@
     "steps" : [ {
       "name" : "navigateTo",
       "time" : {
-        "start" : 1629910600103,
-        "stop" : 1629910603517,
-        "duration" : 3414
+        "start" : 1629912284857,
+        "stop" : 1629912288217,
+        "duration" : 3360
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "ad7387aeb45ad991",
+        "uid" : "fc988029604c0511",
         "name" : "Request",
-        "source" : "ad7387aeb45ad991.json",
+        "source" : "fc988029604c0511.json",
         "type" : "application/json",
         "size" : 55
       } ],
@@ -54,7 +54,7 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-1"
+    "value" : "0-0"
   }, {
     "name" : "suite",
     "value" : "My Login application"
@@ -76,30 +76,12 @@
     "value" : "Chrome Headless-92.0.4515.159"
   } ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "d3a54654c27a29c8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1629910595287,
-        "stop" : 1629910598403,
-        "duration" : 3116
-      }
-    }, {
-      "uid" : "917c360348c62026",
-      "status" : "passed",
-      "time" : {
-        "start" : 1629910239879,
-        "stop" : 1629910243075,
-        "duration" : 3196
-      }
-    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7fb59085b9452e9b.json",
+  "source" : "5447fca590c3230a.json",
   "parameterValues" : [ "Chrome Headless-92.0.4515.159" ]
 }

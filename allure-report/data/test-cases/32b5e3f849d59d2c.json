@@ -1,0 +1,87 @@
+{
+  "uid" : "32b5e3f849d59d2c",
+  "name" : "check yahoo test",
+  "fullName" : "open yahoo.check yahoo test",
+  "historyId" : "7b4249e760428743fad23215a498b8ec",
+  "time" : {
+    "start" : 1629912289925,
+    "stop" : 1629912293135,
+    "duration" : 3210
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "navigateTo",
+      "time" : {
+        "start" : 1629912289934,
+        "stop" : 1629912293134,
+        "duration" : 3200
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8ebfcac7bd63a393",
+        "name" : "Request",
+        "source" : "8ebfcac7bd63a393.json",
+        "type" : "application/json",
+        "size" : 55
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "open yahoo"
+  }, {
+    "name" : "testClass",
+    "value" : "open yahoo"
+  }, {
+    "name" : "testMethod",
+    "value" : "check yahoo test"
+  }, {
+    "name" : "package",
+    "value" : "open yahoo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome Headless-92.0.4515.159"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "32b5e3f849d59d2c.json",
+  "parameterValues" : [ "Chrome Headless-92.0.4515.159" ]
+}

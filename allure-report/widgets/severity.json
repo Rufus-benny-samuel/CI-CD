@@ -1,10 +1,20 @@
 [ {
-  "uid" : "7fb59085b9452e9b",
+  "uid" : "16238f4940a830e7",
+  "name" : "check yahoo test",
+  "time" : {
+    "start" : 1629912336709,
+    "stop" : 1629912339926,
+    "duration" : 3217
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "737e368fc6eb5cff",
   "name" : "should login with valid credentials",
   "time" : {
-    "start" : 1629910600095,
-    "stop" : 1629910603518,
-    "duration" : 3423
+    "start" : 1629912330094,
+    "stop" : 1629912334531,
+    "duration" : 4437
   },
   "status" : "passed",
   "severity" : "normal"

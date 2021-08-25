@@ -3,13 +3,26 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "should login with valid credentials",
-    "uid" : "7fb59085b9452e9b",
+    "uid" : "737e368fc6eb5cff",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1629910600095,
-      "stop" : 1629910603518,
-      "duration" : 3423
+      "start" : 1629912330094,
+      "stop" : 1629912334531,
+      "duration" : 4437
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome Headless-92.0.4515.159" ]
+  }, {
+    "name" : "check yahoo test",
+    "uid" : "16238f4940a830e7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629912336709,
+      "stop" : 1629912339926,
+      "duration" : 3217
     },
     "flaky" : false,
     "newFailed" : false,

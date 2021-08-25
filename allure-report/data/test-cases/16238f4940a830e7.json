@@ -1,12 +1,12 @@
 {
-  "uid" : "d3a54654c27a29c8",
-  "name" : "should login with valid credentials",
-  "fullName" : "My Login application.should login with valid credentials",
-  "historyId" : "4fd45334708a63fab93269cc8d19d7a1",
+  "uid" : "16238f4940a830e7",
+  "name" : "check yahoo test",
+  "fullName" : "open yahoo.check yahoo test",
+  "historyId" : "7b4249e760428743fad23215a498b8ec",
   "time" : {
-    "start" : 1629910595287,
-    "stop" : 1629910598403,
-    "duration" : 3116
+    "start" : 1629912336709,
+    "stop" : 1629912339926,
+    "duration" : 3217
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -19,16 +19,16 @@
     "steps" : [ {
       "name" : "navigateTo",
       "time" : {
-        "start" : 1629910595303,
-        "stop" : 1629910598402,
-        "duration" : 3099
+        "start" : 1629912336719,
+        "stop" : 1629912339925,
+        "duration" : 3206
       },
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "281e9f0900e13b23",
+        "uid" : "8757d3097af8d691",
         "name" : "Request",
-        "source" : "281e9f0900e13b23.json",
+        "source" : "8757d3097af8d691.json",
         "type" : "application/json",
         "size" : 55
       } ],
@@ -54,19 +54,19 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-0"
+    "value" : "0-1"
   }, {
     "name" : "suite",
-    "value" : "My Login application"
+    "value" : "open yahoo"
   }, {
     "name" : "testClass",
-    "value" : "My Login application"
+    "value" : "open yahoo"
   }, {
     "name" : "testMethod",
-    "value" : "should login with valid credentials"
+    "value" : "check yahoo test"
   }, {
     "name" : "package",
-    "value" : "My Login application"
+    "value" : "open yahoo"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -76,12 +76,22 @@
     "value" : "Chrome Headless-92.0.4515.159"
   } ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "32b5e3f849d59d2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629912289925,
+        "stop" : 1629912293135,
+        "duration" : 3210
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d3a54654c27a29c8.json",
+  "source" : "16238f4940a830e7.json",
   "parameterValues" : [ "Chrome Headless-92.0.4515.159" ]
 }

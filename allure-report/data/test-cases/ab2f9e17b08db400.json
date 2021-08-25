@@ -1,5 +1,5 @@
 {
-  "uid" : "917c360348c62026",
+  "uid" : "ab2f9e17b08db400",
   "name" : "should login with valid credentials",
   "fullName" : "My Login application.should login with valid credentials",
   "historyId" : "4fd45334708a63fab93269cc8d19d7a1",
@@ -26,9 +26,9 @@
       "status" : "passed",
       "steps" : [ ],
       "attachments" : [ {
-        "uid" : "5d35532d213e3de8",
+        "uid" : "f2a7397aab2856ca",
         "name" : "Request",
-        "source" : "5d35532d213e3de8.json",
+        "source" : "f2a7397aab2856ca.json",
         "type" : "application/json",
         "size" : 55
       } ],
@@ -82,6 +82,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "917c360348c62026.json",
+  "source" : "ab2f9e17b08db400.json",
   "parameterValues" : [ "Chrome Headless-92.0.4515.159" ]
 }
