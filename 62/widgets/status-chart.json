@@ -1,0 +1,21 @@
+[ {
+  "uid" : "7995005f09712859",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1629912750438,
+    "stop" : 1629912754478,
+    "duration" : 4040
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "87c12fa45c7e7ab3",
+  "name" : "check yahoo test",
+  "time" : {
+    "start" : 1629912756238,
+    "stop" : 1629912756238,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]
