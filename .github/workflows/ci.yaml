@@ -33,7 +33,7 @@ jobs:
       - run: npx wdio run ./wdio.conf.js
         name: Running E2E tests 
 
-        name: Get allure history
+       - name: Get allure history
         uses: actions/checkout@v2
         if: always()
         continue-on-error: true
@@ -41,7 +41,7 @@ jobs:
            ref: gh-pages
            path: gh-pages
 
-        name: Setup allure report
+       - name: Setup allure report
         uses: simple-elf/allure-report-action@master
         if: always()
         id: allure-report
@@ -50,7 +50,7 @@ jobs:
              allure_history: allure-history
              keep_reports: 5
 
-        name: Deploy report to Github Pages
+       - name: Deploy report to Github Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v2
         env:
