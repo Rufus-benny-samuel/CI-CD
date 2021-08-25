@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1629905391406' stop='1629905394705'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1629910595285' stop='1629910598404'>
     <name>My Login application</name>
     <title>My Login application</title>
     <test-cases>
-        <test-case start='1629905391409' status='passed' stop='1629905394699'>
+        <test-case start='1629910595287' status='passed' stop='1629910598403'>
             <name>should login with valid credentials</name>
             <title>should login with valid credentials</title>
             <labels>
@@ -15,11 +15,11 @@
                 <parameter kind='argument' name='browser' value='Chrome Headless-92.0.4515.159'/>
             </parameters>
             <steps>
-                <step start='1629905391418' status='passed' stop='1629905394695'>
+                <step start='1629910595303' status='passed' stop='1629910598402'>
                     <name>navigateTo</name>
                     <title>navigateTo</title>
                     <attachments>
-                        <attachment title='Request' source='dbb2d743-5c4f-4c7e-8fa7-7489942c4ac3-attachment.json' type='application/json' size='55'/>
+                        <attachment title='Request' source='a2c41ec7-3c04-455a-a220-f458f224fd8b-attachment.json' type='application/json' size='55'/>
                     </attachments>
                     <steps/>
                 </step>

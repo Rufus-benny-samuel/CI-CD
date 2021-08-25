@@ -4,8 +4,7 @@
   "description": "For CI/CD ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "allure": "allure generate allure-results --clean && allure open"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rufus benny",
   "license": "ISC",
