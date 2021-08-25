@@ -1,0 +1,118 @@
+{
+  "ae37b75c731722d316381ce9952984d6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b6616081f5fabca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629898789607,
+        "stop" : 1629898790658,
+        "duration" : 1051
+      }
+    } ]
+  },
+  "a9d2ca513ba92c36b8ef33a46fd14b29" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "359a74371a6c6db4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629903133141,
+        "stop" : 1629903136171,
+        "duration" : 3030
+      }
+    } ]
+  },
+  "db93f3329754bcc6bd5e63ca7eb0a13c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3cd3a79882a8932c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629225755513,
+        "stop" : 1629225760217,
+        "duration" : 4704
+      }
+    } ]
+  },
+  "d171879f4c0fcaf6cd9b68e2af2baf50" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4bb421c7b12dd80c",
+      "status" : "broken",
+      "statusDetails" : "this.inputUsername.setValue is not a function",
+      "time" : {
+        "start" : 1629216902252,
+        "stop" : 1629216905598,
+        "duration" : 3346
+      }
+    } ]
+  },
+  "346a43a1c438f3f765b1d6b117f42166" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "477f25ebac485671",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629899378188,
+        "stop" : 1629899378203,
+        "duration" : 15
+      }
+    } ]
+  },
+  "1294a8355f5b00afc2be3b84210ad289" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2cf388129ae5e241",
+      "status" : "broken",
+      "statusDetails" : "this.inputUsername.setValue is not a function",
+      "time" : {
+        "start" : 1629224101633,
+        "stop" : 1629224106124,
+        "duration" : 4491
+      }
+    } ]
+  }
+}

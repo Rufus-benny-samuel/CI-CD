@@ -1,0 +1,61 @@
+[ {
+  "uid" : "2cf388129ae5e241",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1629224101633,
+    "stop" : 1629224106124,
+    "duration" : 4491
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "477f25ebac485671",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1629899378188,
+    "stop" : 1629899378203,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6616081f5fabca",
+  "name" : "Search for webdriverio",
+  "time" : {
+    "start" : 1629898789607,
+    "stop" : 1629898790658,
+    "duration" : 1051
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "359a74371a6c6db4",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1629903133141,
+    "stop" : 1629903136171,
+    "duration" : 3030
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3cd3a79882a8932c",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1629225755513,
+    "stop" : 1629225760217,
+    "duration" : 4704
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4bb421c7b12dd80c",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1629216902252,
+    "stop" : 1629216905598,
+    "duration" : 3346
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,114 @@
+{
+  "uid" : "477f25ebac485671",
+  "name" : "should login with valid credentials",
+  "fullName" : "My Login application.should login with valid credentials",
+  "historyId" : "346a43a1c438f3f765b1d6b117f42166",
+  "time" : {
+    "start" : 1629899378188,
+    "stop" : 1629899378203,
+    "duration" : 15
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1629899378192,
+        "stop" : 0,
+        "duration" : -1629899378192
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1308d33c77ca85e7",
+        "name" : "Request",
+        "source" : "1308d33c77ca85e7.json",
+        "type" : "application/json",
+        "size" : 55
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.159"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f929b3805ffcce8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629899308403,
+        "stop" : 1629899308446,
+        "duration" : 43
+      }
+    }, {
+      "uid" : "c86608a0432238dd",
+      "status" : "broken",
+      "statusDetails" : "this.inputUsername.setValue is not a function",
+      "time" : {
+        "start" : 1629899233880,
+        "stop" : 1629899237125,
+        "duration" : 3245
+      }
+    }, {
+      "uid" : "32beed5ec124381c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629898782926,
+        "stop" : 1629898786464,
+        "duration" : 3538
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "477f25ebac485671.json",
+  "parameterValues" : [ "chrome-92.0.4515.159" ]
+}
