@@ -1,6 +1,6 @@
 const loginPage = require("../pageobjects/login.page");
 
-describe('open yahoo', () => {
+describe.skip('open yahoo', () => {
     it('check yahoo test', () => {
         loginPage.open()
 	});

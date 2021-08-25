@@ -1,20 +1,20 @@
 [ {
-  "uid" : "16238f4940a830e7",
+  "uid" : "87c12fa45c7e7ab3",
   "name" : "check yahoo test",
   "time" : {
-    "start" : 1629912336709,
-    "stop" : 1629912339926,
-    "duration" : 3217
+    "start" : 1629912756238,
+    "stop" : 1629912756238,
+    "duration" : 0
   },
-  "status" : "passed",
+  "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "737e368fc6eb5cff",
+  "uid" : "7995005f09712859",
   "name" : "should login with valid credentials",
   "time" : {
-    "start" : 1629912330094,
-    "stop" : 1629912334531,
-    "duration" : 4437
+    "start" : 1629912750438,
+    "stop" : 1629912754478,
+    "duration" : 4040
   },
   "status" : "passed",
   "severity" : "normal"

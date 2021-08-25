@@ -1,20 +1,21 @@
 {
-  "7b4249e760428743fad23215a498b8ec" : {
+  "13c4cd474cdb496cbb29e5a78618046b" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
+      "skipped" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "16238f4940a830e7",
-      "status" : "passed",
+      "uid" : "87c12fa45c7e7ab3",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
       "time" : {
-        "start" : 1629912336709,
-        "stop" : 1629912339926,
-        "duration" : 3217
+        "start" : 1629912756238,
+        "stop" : 1629912756238,
+        "duration" : 0
       }
     } ]
   },
@@ -28,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "737e368fc6eb5cff",
+      "uid" : "7995005f09712859",
       "status" : "passed",
       "time" : {
-        "start" : 1629912330094,
-        "stop" : 1629912334531,
-        "duration" : 4437
+        "start" : 1629912750438,
+        "stop" : 1629912754478,
+        "duration" : 4040
       }
     } ]
   }

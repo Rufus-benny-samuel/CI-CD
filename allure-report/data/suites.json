@@ -5,13 +5,13 @@
     "name" : "My Login application",
     "children" : [ {
       "name" : "should login with valid credentials",
-      "uid" : "737e368fc6eb5cff",
+      "uid" : "7995005f09712859",
       "parentUid" : "ff9b43c34a817b44fa9b6edf61b00141",
       "status" : "passed",
       "time" : {
-        "start" : 1629912330094,
-        "stop" : 1629912334531,
-        "duration" : 4437
+        "start" : 1629912750438,
+        "stop" : 1629912754478,
+        "duration" : 4040
       },
       "flaky" : false,
       "newFailed" : false,
@@ -22,17 +22,17 @@
     "name" : "open yahoo",
     "children" : [ {
       "name" : "check yahoo test",
-      "uid" : "16238f4940a830e7",
+      "uid" : "87c12fa45c7e7ab3",
       "parentUid" : "570bc4e77217fd90723744b53bfa2de2",
-      "status" : "passed",
+      "status" : "skipped",
       "time" : {
-        "start" : 1629912336709,
-        "stop" : 1629912339926,
-        "duration" : 3217
+        "start" : 1629912756238,
+        "stop" : 1629912756238,
+        "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
-      "parameters" : [ "Chrome Headless-92.0.4515.159" ]
+      "parameters" : [ ]
     } ],
     "uid" : "570bc4e77217fd90723744b53bfa2de2"
   } ]
