@@ -1,0 +1,18 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "should login with valid credentials",
+    "uid" : "48920d2c9c777cd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1629904480836,
+      "stop" : 1629904481989,
+      "duration" : 1153
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "Chrome Headless-92.0.4515.131" ]
+  } ],
+  "name" : "behaviors"
+}

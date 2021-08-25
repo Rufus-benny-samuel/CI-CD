@@ -1,7 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Wed Aug 25 13:49:38 GMT 2021","Wed Aug 25 13:49:38 GMT 2021","15","","My Login application","","My Login application","should login with valid credentials","should login with valid credentials",""
-"broken","Tue Aug 17 18:15:01 GMT 2021","Tue Aug 17 18:15:06 GMT 2021","4491","","Login application","","Login application","should login with valid credentials","should login with valid credentials",""
-"passed","Wed Aug 25 14:59:16 GMT 2021","Wed Aug 25 14:59:17 GMT 2021","695","","My Login application","","My Login application","should login with valid credentials","should login with valid credentials",""
-"passed","Tue Aug 17 18:42:35 GMT 2021","Tue Aug 17 18:42:40 GMT 2021","4704","","My Login application","","My Login application","should login with valid credentials","should login with valid credentials",""
-"broken","Tue Aug 17 16:15:02 GMT 2021","Tue Aug 17 16:15:05 GMT 2021","3346","","My Login application","","My Login application","should login with valid credentials","should login with valid credentials",""
-"passed","Wed Aug 25 13:39:49 GMT 2021","Wed Aug 25 13:39:50 GMT 2021","1051","","Google search","","Google search","Search for webdriverio","Search for webdriverio",""
