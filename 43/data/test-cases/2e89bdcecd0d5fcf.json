@@ -1,0 +1,106 @@
+{
+  "uid" : "2e89bdcecd0d5fcf",
+  "name" : "should login with valid credentials",
+  "fullName" : "Login application.should login with valid credentials",
+  "historyId" : "1294a8355f5b00afc2be3b84210ad289",
+  "time" : {
+    "start" : 1629224101633,
+    "stop" : 1629224106124,
+    "duration" : 4491
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "this.inputUsername.setValue is not a function",
+  "statusTrace" : "TypeError: this.inputUsername.setValue is not a function\n                    at LoginPage.login (/Users/rufus/Documents/personal/github actions/test/pageobjects/login.page.js:20:34)\n                    at Context.<anonymous> (/Users/rufus/Documents/personal/github actions/test/specs/example.e2e.js:8:25)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at async Context.executeAsync (/Users/rufus/Documents/personal/github actions/node_modules/@wdio/utils/build/shim.js:285:16)\n                    at async Context.testFrameworkFnWrapper (/Users/rufus/Documents/personal/github actions/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "this.inputUsername.setValue is not a function",
+    "statusTrace" : "TypeError: this.inputUsername.setValue is not a function\n                    at LoginPage.login (/Users/rufus/Documents/personal/github actions/test/pageobjects/login.page.js:20:34)\n                    at Context.<anonymous> (/Users/rufus/Documents/personal/github actions/test/specs/example.e2e.js:8:25)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at async Context.executeAsync (/Users/rufus/Documents/personal/github actions/node_modules/@wdio/utils/build/shim.js:285:16)\n                    at async Context.testFrameworkFnWrapper (/Users/rufus/Documents/personal/github actions/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:52:18)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1629224101635,
+        "stop" : 1629224106122,
+        "duration" : 4487
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "390e2f58744073e8",
+        "name" : "Request",
+        "source" : "390e2f58744073e8.json",
+        "type" : "application/json",
+        "size" : 55
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.131"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4beebab79283589b",
+      "status" : "broken",
+      "statusDetails" : "this.inputUsername.setValue is not a function",
+      "time" : {
+        "start" : 1629223602706,
+        "stop" : 1629223606187,
+        "duration" : 3481
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2e89bdcecd0d5fcf.json",
+  "parameterValues" : [ "chrome-92.0.4515.131" ]
+}
