@@ -1,6 +1,8 @@
 name: Continuous Integration
 
 on:
+  schedule:
+    - cron: '5 00 * * *'  # 12:05am
   push:
     branches:
       - '**'
