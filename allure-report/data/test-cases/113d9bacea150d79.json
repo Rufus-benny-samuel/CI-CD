@@ -1,0 +1,152 @@
+{
+  "uid" : "113d9bacea150d79",
+  "name" : "Search for webdriverio",
+  "fullName" : "Google search.Search for webdriverio",
+  "historyId" : "8e062bf041bc0b55ad29062215f58e69",
+  "time" : {
+    "start" : 1629279545365,
+    "stop" : 1629279547689,
+    "duration" : 2324
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "navigateTo",
+      "time" : {
+        "start" : 1629279545381,
+        "stop" : 1629279547687,
+        "duration" : 2306
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5493feac4d0a8cf5",
+        "name" : "Request",
+        "source" : "5493feac4d0a8cf5.json",
+        "type" : "application/json",
+        "size" : 38
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Google search"
+  }, {
+    "name" : "testClass",
+    "value" : "Google search"
+  }, {
+    "name" : "testMethod",
+    "value" : "Search for webdriverio"
+  }, {
+    "name" : "package",
+    "value" : "Google search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-92.0.4515.159"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "23cd50d0c2b0111c",
+      "status" : "broken",
+      "statusDetails" : "inp.addValue is not a function",
+      "time" : {
+        "start" : 1629278274268,
+        "stop" : 1629278275896,
+        "duration" : 1628
+      }
+    }, {
+      "uid" : "9f660ed487d5c78f",
+      "status" : "broken",
+      "statusDetails" : "inp.addValue is not a function",
+      "time" : {
+        "start" : 1629278258408,
+        "stop" : 1629278260286,
+        "duration" : 1878
+      }
+    }, {
+      "uid" : "c3c5176ff864355e",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'isDevTools' of undefined",
+      "time" : {
+        "start" : 1629278215595,
+        "stop" : 1629278217172,
+        "duration" : 1577
+      }
+    }, {
+      "uid" : "87a5ed881cf1372e",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'isDevTools' of undefined",
+      "time" : {
+        "start" : 1629278045768,
+        "stop" : 1629278048043,
+        "duration" : 2275
+      }
+    }, {
+      "uid" : "e6049e86e00e8f1d",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'isDevTools' of undefined",
+      "time" : {
+        "start" : 1629277860700,
+        "stop" : 1629277860709,
+        "duration" : 9
+      }
+    }, {
+      "uid" : "848ac53a1ff46c70",
+      "status" : "broken",
+      "statusDetails" : "this.inputField.setValue is not a function",
+      "time" : {
+        "start" : 1629274201736,
+        "stop" : 1629274204449,
+        "duration" : 2713
+      }
+    }, {
+      "uid" : "fb46471b3c70dde2",
+      "status" : "broken",
+      "statusDetails" : "this.inputField.setValue is not a function",
+      "time" : {
+        "start" : 1629273863317,
+        "stop" : 1629273865926,
+        "duration" : 2609
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "113d9bacea150d79.json",
+  "parameterValues" : [ "Chrome-92.0.4515.159" ]
+}

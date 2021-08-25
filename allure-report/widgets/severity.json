@@ -1,0 +1,101 @@
+[ {
+  "uid" : "626a2496e14982a6",
+  "name" : "Search for webdriverio",
+  "time" : {
+    "start" : 1629279591991,
+    "stop" : 1629279593438,
+    "duration" : 1447
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8d91afcb6b39590",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1629279535050,
+    "stop" : 1629279538461,
+    "duration" : 3411
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b49dce3d8935a866",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1629225755513,
+    "stop" : 1629225760217,
+    "duration" : 4704
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7da5fa6ff2b33ae6",
+  "name" : "Search for webdriverio",
+  "time" : {
+    "start" : 1629280416148,
+    "stop" : 1629280417895,
+    "duration" : 1747
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "113d9bacea150d79",
+  "name" : "Search for webdriverio",
+  "time" : {
+    "start" : 1629279545365,
+    "stop" : 1629279547689,
+    "duration" : 2324
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad0ad4df37b20132",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1629224101633,
+    "stop" : 1629224106124,
+    "duration" : 4491
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ee93d1fdb082f886",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1629226656626,
+    "stop" : 1629226661279,
+    "duration" : 4653
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9552cc8fd1f6ba82",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1629216902252,
+    "stop" : 1629216905598,
+    "duration" : 3346
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5119120736bf9270",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1629280407217,
+    "stop" : 1629280410723,
+    "duration" : 3506
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bfba29178fd047c2",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1629279585692,
+    "stop" : 1629279589095,
+    "duration" : 3403
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

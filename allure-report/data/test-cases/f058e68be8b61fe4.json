@@ -1,0 +1,91 @@
+{
+  "uid" : "f058e68be8b61fe4",
+  "name" : "should login with valid credentials",
+  "fullName" : "My Login application.should login with valid credentials",
+  "historyId" : "aa8319a102a6b0e27ca8373c3ebacdac",
+  "time" : {
+    "start" : 1629274187873,
+    "stop" : 1629274192368,
+    "duration" : 4495
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "this.inputUsername.setValue is not a function",
+  "statusTrace" : "TypeError: this.inputUsername.setValue is not a function\n                    at LoginPage.login (/Users/rufus/Documents/personal/github actions/test/pageobjects/login.page.js:20:28)\n                    at Context.<anonymous> (/Users/rufus/Documents/personal/github actions/test/specs/example.e2e.js:7:19)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "this.inputUsername.setValue is not a function",
+    "statusTrace" : "TypeError: this.inputUsername.setValue is not a function\n                    at LoginPage.login (/Users/rufus/Documents/personal/github actions/test/pageobjects/login.page.js:20:28)\n                    at Context.<anonymous> (/Users/rufus/Documents/personal/github actions/test/specs/example.e2e.js:7:19)",
+    "steps" : [ {
+      "name" : "navigateTo",
+      "time" : {
+        "start" : 1629274187896,
+        "stop" : 1629274192365,
+        "duration" : 4469
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b2678719a1cdcd3e",
+        "name" : "Request",
+        "source" : "b2678719a1cdcd3e.json",
+        "type" : "application/json",
+        "size" : 55
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-92.0.4515.159"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f058e68be8b61fe4.json",
+  "parameterValues" : [ "Chrome-92.0.4515.159" ]
+}

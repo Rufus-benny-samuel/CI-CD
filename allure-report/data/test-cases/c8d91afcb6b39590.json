@@ -1,0 +1,123 @@
+{
+  "uid" : "c8d91afcb6b39590",
+  "name" : "should login with valid credentials",
+  "fullName" : "My Login application.should login with valid credentials",
+  "historyId" : "aa8319a102a6b0e27ca8373c3ebacdac",
+  "time" : {
+    "start" : 1629279535050,
+    "stop" : 1629279538461,
+    "duration" : 3411
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "navigateTo",
+      "time" : {
+        "start" : 1629279535145,
+        "stop" : 1629279538460,
+        "duration" : 3315
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a254b0b3de0e1502",
+        "name" : "Request",
+        "source" : "a254b0b3de0e1502.json",
+        "type" : "application/json",
+        "size" : 55
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-92.0.4515.159"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f058e68be8b61fe4",
+      "status" : "broken",
+      "statusDetails" : "this.inputUsername.setValue is not a function",
+      "time" : {
+        "start" : 1629274187873,
+        "stop" : 1629274192368,
+        "duration" : 4495
+      }
+    }, {
+      "uid" : "9dc56b301c740adf",
+      "status" : "broken",
+      "statusDetails" : "this.inputUsername.setValue is not a function",
+      "time" : {
+        "start" : 1629273849009,
+        "stop" : 1629273852259,
+        "duration" : 3250
+      }
+    }, {
+      "uid" : "3264a12cd03a94db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629268568885,
+        "stop" : 1629268572299,
+        "duration" : 3414
+      }
+    }, {
+      "uid" : "f4ec86cf9e5d647a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629268312378,
+        "stop" : 1629268317216,
+        "duration" : 4838
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c8d91afcb6b39590.json",
+  "parameterValues" : [ "Chrome-92.0.4515.159" ]
+}

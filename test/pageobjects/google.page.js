@@ -1,4 +1,4 @@
-// const { default: $ } = require("webdriverio/build/commands/element/$");
+ const { default: $ } = require("webdriverio/build/commands/element/$");
 
 class GooglePage {
 

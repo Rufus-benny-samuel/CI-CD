@@ -1,0 +1,91 @@
+{
+  "uid" : "fb46471b3c70dde2",
+  "name" : "Search for webdriverio",
+  "fullName" : "Google search.Search for webdriverio",
+  "historyId" : "8e062bf041bc0b55ad29062215f58e69",
+  "time" : {
+    "start" : 1629273863317,
+    "stop" : 1629273865926,
+    "duration" : 2609
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "this.inputField.setValue is not a function",
+  "statusTrace" : "TypeError: this.inputField.setValue is not a function\n                    at GooglePage.enterTest (/Users/rufus/Documents/personal/github actions/test/pageobjects/google.page.js:10:18)\n                    at Context.<anonymous> (/Users/rufus/Documents/personal/github actions/test/specs/google.spec.js:6:14)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "this.inputField.setValue is not a function",
+    "statusTrace" : "TypeError: this.inputField.setValue is not a function\n                    at GooglePage.enterTest (/Users/rufus/Documents/personal/github actions/test/pageobjects/google.page.js:10:18)\n                    at Context.<anonymous> (/Users/rufus/Documents/personal/github actions/test/specs/google.spec.js:6:14)",
+    "steps" : [ {
+      "name" : "navigateTo",
+      "time" : {
+        "start" : 1629273863351,
+        "stop" : 1629273865913,
+        "duration" : 2562
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4a00de1041c07f89",
+        "name" : "Request",
+        "source" : "4a00de1041c07f89.json",
+        "type" : "application/json",
+        "size" : 38
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Google search"
+  }, {
+    "name" : "testClass",
+    "value" : "Google search"
+  }, {
+    "name" : "testMethod",
+    "value" : "Search for webdriverio"
+  }, {
+    "name" : "package",
+    "value" : "Google search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-92.0.4515.159"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fb46471b3c70dde2.json",
+  "parameterValues" : [ "Chrome-92.0.4515.159" ]
+}

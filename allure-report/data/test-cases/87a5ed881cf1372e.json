@@ -1,0 +1,91 @@
+{
+  "uid" : "87a5ed881cf1372e",
+  "name" : "Search for webdriverio",
+  "fullName" : "Google search.Search for webdriverio",
+  "historyId" : "8e062bf041bc0b55ad29062215f58e69",
+  "time" : {
+    "start" : 1629278045768,
+    "stop" : 1629278048043,
+    "duration" : 2275
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property 'isDevTools' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'isDevTools' of undefined\n                    at findElement (/Users/rufus/Documents/personal/github actions/node_modules/webdriverio/build/utils/index.js:217:15)\n                    at $ (/Users/rufus/Documents/personal/github actions/node_modules/webdriverio/build/commands/browser/$.js:83:43)\n                    at Context.<anonymous> (/Users/rufus/Documents/personal/github actions/test/specs/google.spec.js:8:20)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at async Context.executeAsync (/Users/rufus/Documents/personal/github actions/node_modules/@wdio/utils/build/shim.js:101:16)\n                    at async Context.exports.testFrameworkFnWrapper (/Users/rufus/Documents/personal/github actions/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:25:18)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot read property 'isDevTools' of undefined",
+    "statusTrace" : "TypeError: Cannot read property 'isDevTools' of undefined\n                    at findElement (/Users/rufus/Documents/personal/github actions/node_modules/webdriverio/build/utils/index.js:217:15)\n                    at $ (/Users/rufus/Documents/personal/github actions/node_modules/webdriverio/build/commands/browser/$.js:83:43)\n                    at Context.<anonymous> (/Users/rufus/Documents/personal/github actions/test/specs/google.spec.js:8:20)\n                    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n                    at async Context.executeAsync (/Users/rufus/Documents/personal/github actions/node_modules/@wdio/utils/build/shim.js:101:16)\n                    at async Context.exports.testFrameworkFnWrapper (/Users/rufus/Documents/personal/github actions/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:25:18)",
+    "steps" : [ {
+      "name" : "navigateTo",
+      "time" : {
+        "start" : 1629278045782,
+        "stop" : 1629278048039,
+        "duration" : 2257
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "79eca4361d287978",
+        "name" : "Request",
+        "source" : "79eca4361d287978.json",
+        "type" : "application/json",
+        "size" : 38
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Google search"
+  }, {
+    "name" : "testClass",
+    "value" : "Google search"
+  }, {
+    "name" : "testMethod",
+    "value" : "Search for webdriverio"
+  }, {
+    "name" : "package",
+    "value" : "Google search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "Chrome-92.0.4515.159"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "87a5ed881cf1372e.json",
+  "parameterValues" : [ "Chrome-92.0.4515.159" ]
+}

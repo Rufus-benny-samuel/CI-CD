@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1629280416147' stop='1629280417900'>
+    <name>Google search</name>
+    <title>Google search</title>
+    <test-cases>
+        <test-case start='1629280416148' status='broken' stop='1629280417895'>
+            <name>Search for webdriverio</name>
+            <title>Search for webdriverio</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.159'/>
+            </parameters>
+            <steps>
+                <step start='1629280416158' status='passed' stop='1629280417887'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='01f94ea5-e782-4612-8ea3-d5e9d23cada4-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>inp.addValue is not a function</message>
+                <stack-trace>TypeError: inp.addValue is not a function
+                    at Context.&lt;anonymous> (/Users/rufus/Documents/personal/github actions/test/specs/google.spec.js:9:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,6 +1,6 @@
-const drivers = {
-    chrome: { version: '92.0.4515.131' }
-}
+// const drivers = {
+//     chrome: { version: '92.0.4515.131' }
+// }
 exports.config = {
 
     
@@ -55,7 +55,7 @@ exports.config = {
         'maxInstances': 1,
         'browserName': 'chrome',
         'goog:chromeOptions': {
-            args: ['--headless', '--disable-gpu'],
+           args: ['--headless', '--disable-gpu'],
           prefs: {
             'profile.managed_default_content_settings.popups': 1,
             'profile.managed_default_content_settings.notifications': 1,
@@ -69,7 +69,7 @@ exports.config = {
     // Define all options that are relevant for the WebdriverIO instance here
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
-    logLevel: 'info',
+    logLevel: 'error',
     //
     // Set specific log levels per logger
     // loggers:
@@ -93,7 +93,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'http://localhost',
+   // baseUrl: 'http://localhost',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
@@ -109,17 +109,17 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-   // services: ['chromedriver'],
-    services: [
-    [
-      'chromedriver',
-      {
-        logPath: 'logs',
-        installArgs: { drivers }, // drivers to install
-        args: { drivers }, // drivers to use
-      },
-    ],
-  ],
+    services: ['selenium-standalone'],
+  //   services: [
+  //   [
+  //     'chromedriver',
+  //     {
+  //       logPath: 'logs',
+  //       installArgs: { drivers }, // drivers to install
+  //       args: { drivers }, // drivers to use
+  //     },
+  //   ],
+  // ],
     
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber

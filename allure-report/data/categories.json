@@ -1,0 +1,69 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "this.inputUsername.setValue is not a function",
+      "children" : [ {
+        "name" : "should login with valid credentials",
+        "uid" : "9552cc8fd1f6ba82",
+        "parentUid" : "5122257cfaaffdceae8f65c5ba7ccc8e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629216902252,
+          "stop" : 1629216905598,
+          "duration" : 3346
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-92.0.4515.131" ]
+      }, {
+        "name" : "should login with valid credentials",
+        "uid" : "ad0ad4df37b20132",
+        "parentUid" : "5122257cfaaffdceae8f65c5ba7ccc8e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629224101633,
+          "stop" : 1629224106124,
+          "duration" : 4491
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-92.0.4515.131" ]
+      }, {
+        "name" : "should login with valid credentials",
+        "uid" : "5119120736bf9270",
+        "parentUid" : "5122257cfaaffdceae8f65c5ba7ccc8e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629280407217,
+          "stop" : 1629280410723,
+          "duration" : 3506
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-92.0.4515.159" ]
+      } ],
+      "uid" : "5122257cfaaffdceae8f65c5ba7ccc8e"
+    }, {
+      "name" : "inp.addValue is not a function",
+      "children" : [ {
+        "name" : "Search for webdriverio",
+        "uid" : "7da5fa6ff2b33ae6",
+        "parentUid" : "a421bdbdbe7f714b76410b0f93fa80d9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1629280416148,
+          "stop" : 1629280417895,
+          "duration" : 1747
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-92.0.4515.159" ]
+      } ],
+      "uid" : "a421bdbdbe7f714b76410b0f93fa80d9"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

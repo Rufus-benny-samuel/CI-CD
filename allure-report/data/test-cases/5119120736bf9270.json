@@ -1,0 +1,115 @@
+{
+  "uid" : "5119120736bf9270",
+  "name" : "should login with valid credentials",
+  "fullName" : "My Login application.should login with valid credentials",
+  "historyId" : "346a43a1c438f3f765b1d6b117f42166",
+  "time" : {
+    "start" : 1629280407217,
+    "stop" : 1629280410723,
+    "duration" : 3506
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "this.inputUsername.setValue is not a function",
+  "statusTrace" : "TypeError: this.inputUsername.setValue is not a function\n                    at LoginPage.login (/Users/rufus/Documents/personal/github actions/test/pageobjects/login.page.js:20:28)\n                    at Context.<anonymous> (/Users/rufus/Documents/personal/github actions/test/specs/example.e2e.js:7:19)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "this.inputUsername.setValue is not a function",
+    "statusTrace" : "TypeError: this.inputUsername.setValue is not a function\n                    at LoginPage.login (/Users/rufus/Documents/personal/github actions/test/pageobjects/login.page.js:20:28)\n                    at Context.<anonymous> (/Users/rufus/Documents/personal/github actions/test/specs/example.e2e.js:7:19)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1629280407225,
+        "stop" : 1629280410719,
+        "duration" : 3494
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9faacd92dfe547eb",
+        "name" : "Request",
+        "source" : "9faacd92dfe547eb.json",
+        "type" : "application/json",
+        "size" : 55
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "My Login application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.159"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2fa8ddc517ac08af",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`#flash`) to be existing\n                \n                Expected: \"existing\"\n                Received: \"not existing\"",
+      "time" : {
+        "start" : 1629280331515,
+        "stop" : 1629280346850,
+        "duration" : 15335
+      }
+    }, {
+      "uid" : "cea82bc6ecceae8b",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`#flash`) to be existing\n                \n                Expected: \"existing\"\n                Received: \"not existing\"",
+      "time" : {
+        "start" : 1629280280316,
+        "stop" : 1629280294080,
+        "duration" : 13764
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5119120736bf9270.json",
+  "parameterValues" : [ "chrome-92.0.4515.159" ]
+}

@@ -1,0 +1,196 @@
+{
+  "ae37b75c731722d316381ce9952984d6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7da5fa6ff2b33ae6",
+      "status" : "broken",
+      "statusDetails" : "inp.addValue is not a function",
+      "time" : {
+        "start" : 1629280416148,
+        "stop" : 1629280417895,
+        "duration" : 1747
+      }
+    } ]
+  },
+  "aa8319a102a6b0e27ca8373c3ebacdac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c8d91afcb6b39590",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629279535050,
+        "stop" : 1629279538461,
+        "duration" : 3411
+      }
+    } ]
+  },
+  "a9d2ca513ba92c36b8ef33a46fd14b29" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ee93d1fdb082f886",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629226656626,
+        "stop" : 1629226661279,
+        "duration" : 4653
+      }
+    } ]
+  },
+  "db93f3329754bcc6bd5e63ca7eb0a13c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b49dce3d8935a866",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629225755513,
+        "stop" : 1629225760217,
+        "duration" : 4704
+      }
+    } ]
+  },
+  "d171879f4c0fcaf6cd9b68e2af2baf50" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9552cc8fd1f6ba82",
+      "status" : "broken",
+      "statusDetails" : "this.inputUsername.setValue is not a function",
+      "time" : {
+        "start" : 1629216902252,
+        "stop" : 1629216905598,
+        "duration" : 3346
+      }
+    } ]
+  },
+  "346a43a1c438f3f765b1d6b117f42166" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5119120736bf9270",
+      "status" : "broken",
+      "statusDetails" : "this.inputUsername.setValue is not a function",
+      "time" : {
+        "start" : 1629280407217,
+        "stop" : 1629280410723,
+        "duration" : 3506
+      }
+    } ]
+  },
+  "8e062bf041bc0b55ad29062215f58e69" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "113d9bacea150d79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629279545365,
+        "stop" : 1629279547689,
+        "duration" : 2324
+      }
+    } ]
+  },
+  "91a1731df83344e2c895ee3324b3784e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "626a2496e14982a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629279591991,
+        "stop" : 1629279593438,
+        "duration" : 1447
+      }
+    } ]
+  },
+  "4fd45334708a63fab93269cc8d19d7a1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bfba29178fd047c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629279585692,
+        "stop" : 1629279589095,
+        "duration" : 3403
+      }
+    } ]
+  },
+  "1294a8355f5b00afc2be3b84210ad289" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ad0ad4df37b20132",
+      "status" : "broken",
+      "statusDetails" : "this.inputUsername.setValue is not a function",
+      "time" : {
+        "start" : 1629224101633,
+        "stop" : 1629224106124,
+        "duration" : 4491
+      }
+    } ]
+  }
+}
