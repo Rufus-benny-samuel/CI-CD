@@ -44,7 +44,7 @@ jobs:
       - name: Allure Report action
         uses: simple-elf/allure-report-action@master
         if: always()
-        #id: allure-report
+        id: allure-report
         with:
           allure_results: build/allure-results
          # allure_results: allure generate allure-results --clean &&allure open
@@ -60,6 +60,6 @@ jobs:
         env:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
-          PUBLISH_DIR: allure-history/allure-history
+          PUBLISH_DIR: allure-history
 
        
