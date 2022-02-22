@@ -70,8 +70,8 @@ exports.config = {
   },
 
   'specs': [
-		  //'./build/features/addNotes.feature',
-		 './build/features/share.feature',
+		  './build/features/addNotes.feature',
+		 //'./build/features/share.feature',
 	],
 	'suites': {
 		//'./build/features/addNotes.feature'
