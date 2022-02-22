@@ -70,8 +70,8 @@ exports.config = {
   },
 
   'specs': [
-		 './build/features/addNotes.feature',
-		 './build/features/share.feature',
+		  './build/features/addNotes.feature',
+		 //'./build/features/share.feature',
 	],
 	'suites': {
 		//'./build/features/addNotes.feature'
@@ -124,7 +124,7 @@ exports.config = {
       'maxInstances': 5,
       'browserName': 'chrome',
       'goog:chromeOptions': {
-        // args: ['--headless', '--disable-gpu', '--window-size=1366,768'],
+       args: ['--headless', '--disable-gpu', '--window-size=1366,768'],
         prefs: {
           'profile.managed_default_content_settings.popups': 1,
           'profile.managed_default_content_settings.notifications': 1,
